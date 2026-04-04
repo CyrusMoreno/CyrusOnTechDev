@@ -13,7 +13,7 @@ This repo contains the code and datasets used in my YouTube channel.
 ### 📬 Contact & Support
 If my templates saved you time, consider supporting the channel!
 
-[**☕ Support my Work on Ko-fi**](https://ko-fi.com/cyrusemoreno)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V11T8RL9)
 
 ---
 
