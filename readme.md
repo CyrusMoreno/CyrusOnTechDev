@@ -1,4 +1,4 @@
-# Welcome to @Cyrus.Use.Data.Science github!
+# Welcome to @Cyrus.TechDev github!
 
 ## 📌 Pinned Post: Portfolio & Tools
 
