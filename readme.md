@@ -19,6 +19,11 @@ If my templates saved you time, consider supporting the channel!
 
 ## 🔄 Page Updates
 
+### **April 18, 2026** | Music Theme Template
+Added new **music_theme.html** to the public OneDrive folder.
+
+Free HTML FL Studio composition planner from my GitHub, based on the awesome pre-production workflow from **Karleen Heong**'s Udemy course **Game Music Composition: Make Music For Games From Scratch**.
+
 ### **March 27, 2026** | LLM Project Update
 Added new **Code Generator for SPP** to the public OneDrive folder.
 
