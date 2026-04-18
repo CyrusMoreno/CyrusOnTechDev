@@ -7,7 +7,7 @@ This repo contains the code and datasets used in my YouTube channel.
 > **⚠️ Note on Excel:** > I use **Excel Online** for all my projects. You do not need to install software to view these files; they will open directly in your browser via OneDrive.
 
 ### Quick Links
-[**📂 Access Excel Files (OneDrive)**](https://1drv.ms/f/c/581dc08bd5488e5a/IgB61Ha6QfrYRaY1Euyjf5sqAdAcWOzWrh__BG4cvu6LQBE?e=lRLeMI) &nbsp; | &nbsp; [**📺 Subscribe to my Youtube**](https://www.youtube.com/@Cyrus.Use.Data.Science)
+[**📂 Access Free Files (OneDrive)**](https://1drv.ms/f/c/581dc08bd5488e5a/IgB61Ha6QfrYRaY1Euyjf5sqAdAcWOzWrh__BG4cvu6LQBE?e=lRLeMI) &nbsp; | &nbsp; [**📺 Subscribe to my Youtube**](https://www.youtube.com/@Cyrus.Use.Data.Science)
 
 ---
 ### 📬 Contact & Support
