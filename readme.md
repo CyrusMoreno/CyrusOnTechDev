@@ -1,4 +1,4 @@
-# Welcome to @Cyrus.TechDev github!
+# Welcome to @CyrusOnTechDev github!
 
 ## 📌 Pinned Post: Portfolio & Tools
 
