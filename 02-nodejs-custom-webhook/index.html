@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STG Design - Book Consultation</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 50px; max-width: 400px; margin: auto; }
+        input, button { width: 100%; padding: 10px; margin: 10px 0; }
+        button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h2>Book Your Garden Consultation</h2>
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <input type="date" id="date" required>
+        <button type="submit">Confirm Booking</button>
+    </form>
+
+    <p id="statusMessage"></p>
+
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', async (e) => {
+            e.preventDefault(); // Stop page reload
+            
+            // Gather the data
+            const leadData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                date: document.getElementById('date').value,
+                status: "Booked" // Default CRM status
+            };
+
+            // Send to our local Node.js server (acting as Zapier)
+            const response = await fetch('http://localhost:3000/webhook', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(leadData)
+            });
+
+            if (response.ok) {
+                document.getElementById('statusMessage').innerText = "Booking successful! Data sent to CRM.";
+                document.getElementById('bookingForm').reset();
+            }
+        });
+    </script>
+</body>
+</html>
